@@ -1,6 +1,13 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true },
+  env: {
+    browser: true,
+    es2020: true,
+    jest: true, // ✅ enables global test functions like test(), expect()
+  },
+
+
+
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',

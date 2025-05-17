@@ -1,10 +1,11 @@
-import './EventPlanner.css'; // Import CSS file for styling
+import React from 'react'; // ✅ Required if using JSX
+
 const Footer = () => {
     return (
-        <>
-            <footer>
-                <p>&copy; Event Planner Organization. All rights reserved.</p>
-            </footer>
-        </>
-    )}
-export default Footer
+        <footer>
+            <p>&copy; Event Planner Organization. All rights reserved.</p>
+        </footer>
+    );
+};
+
+export default Footer;
